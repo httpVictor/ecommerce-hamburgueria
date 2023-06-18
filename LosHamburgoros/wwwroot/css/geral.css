@@ -1,0 +1,122 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+/* font-family: 'Passion One', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+/* font-family: 'Bungee Spice', sans-serif; */
+
+/* CORES */
+:root{
+    --marrom: #400202;
+    --vermelho: #C32300;
+    --laranja: #D97B29;
+    --amarelo: #F8FF4E;
+    --verde-limao: #CAE400;
+    --beje: #FEE0A2;
+    --branco: #FDF3DD;
+}
+
+
+/* RESET*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+textarea:focus, input:focus, select:focus, input, textarea, select {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+body{
+    background-color: var(--branco);
+}
+
+button{
+    font-family: 'Passion One', sans-serif;
+    font-size: 1.2em;
+    padding: 10px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0.5em;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+button:hover{
+    transition: 0.3s;
+    background-color: var(--verde-limao);
+    transform: scale(1.05);
+}
+
+/* FONTES */
+h1, h2, h3, h4{
+    text-transform: uppercase;
+    font-family: 'Passion One', sans-serif;
+}
+
+h5 {
+    font-family: 'Raleway', sans-serif;
+}
+
+p{
+    font-size: 1.2em;
+    font-family: 'Raleway', sans-serif;
+}
+
+a, li{
+    font-family: 'Passion One', sans-serif; 
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 1.4em;
+}
+/* ALGUMAS CONFIGURAÇÕES PADRÕES */
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.row-container-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.button-subimit{
+    background-color: var(--marrom);
+}
+
+.button-seen{
+    background-color: var(--laranja);
+}
+
+
+/* RESPONSIVIDADE */
+
+/* TABLET */
+
+/* CELULARES */

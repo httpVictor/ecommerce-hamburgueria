@@ -1,0 +1,85 @@
+/* IDENTIDADE VISUAL */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Passion One', sans-serif; */
+/* font-family: 'Bungee Spice', sans-serif; */
+/*
+    --marrom: #400202;
+    --vermelho: #C32300;
+    --laranja: #D97B29;
+    --amarelo: #F8FF4E;
+    --verde-limao: #CAE400;
+    --beje: #FEE0A2;
+    --branco: #FDF3DD;
+*/
+
+/* PADRÃO FORMULÁRIOS */
+/* Configurações dos campos */
+.campo {
+    margin-bottom: 40px;
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    height: 40px;
+}
+
+.campo label {
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+    font-size: 20px;
+    color: var(--marrom);
+    transition: .5s;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.campo input {
+    position: absolute;
+    background-color: var(--branco);
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    height: 4px;
+    box-shadow: none;
+    border: none;
+    outline: none;
+    border-radius: 2px;
+    transition: 0.65s;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 10px;
+}
+
+/* Quando o foco estiver no input */
+.campo input:focus, .campo input:valid {
+    bottom: 5px;
+    height: 100%;
+}
+
+/* Movimento de subida e descida do input */
+.campo input:focus + label, .campo input:valid + label {
+    top: -45px;
+}
+
+.campo input:not(:focus) + label .campo input:valid + label {
+    transition: 0.65s;
+}
+
+
+/**Animação do hamburguer**/
+form img {
+    animation: hamburguerFlutuante 2s linear infinite;
+}
+@keyframes hamburguerFlutuante {
+    0% {
+        transform : translateY(0px);
+    }
+
+    50% {
+        transform: translateY(5px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}

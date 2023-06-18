@@ -1,8 +1,60 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@*Estilos de css*@
+@section Stylesheets{
+    <link rel="stylesheet" href="~/css/home.css">
 }
+<img class="banner-inicial" src="~/img/identidade/slogan_losHamburgoros.png" alt="imagem de divulgação">
+<section class="bem-vindo">
+    <h2>Seja bem-vindo!</h2>
+    <div class="desc-bemvindo row-container">
+        <p>Uma breve descrição da hamburgueria vem aqui nesse espaço</p>
+        <img src="~/img/identidade/hamburguer-vetor.png" alt="hamburguer em formato de vetor">
+    </div>
+</section>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<section class="column-container lanches-populares">
+    <h2>Lanches populares:</h2>
+    <div class="lanche-pop">
+        <div class="descricao-pop">
+            <p>Descição do lanche</p>
+            <p>Preço</p>
+            <button>Comprar</button>
+        </div>
+        <div class="imagem-lanche">
+            <img src="" alt="imagem do lanche">
+        </div>
+
+    </div>
+
+    <div class="lanche-pop">
+        <div class="descricao-pop">
+            <p>Descição do lanche</p>
+            <p>Preço</p>
+            <button>Comprar</button>
+        </div>
+        <div class="imagem-lanche">
+            <img src="" alt="imagem do lanche">
+        </div>
+
+    </div>
+
+    <div class="lanche-pop">
+        <div class="descricao-pop">
+            <p>Descição do lanche</p>
+            <p>Preço</p>
+            <button>Comprar</button>
+        </div>
+        <div class="imagem-lanche">
+            <img src="" alt="imagem do lanche">
+        </div>
+
+    </div>
+
+    <button class="button-seen cardapio">Cardápio completo</button>
+</section>
+
+<section class="row-container localizacao">
+    <div class="imagens-comercio">
+        <img src="~/img/identidade/img-restaurante-exemplo.png" alt="imagem da loja">
+    </div>
+    <!-- Aqui vem o mapa! -->
+</section>

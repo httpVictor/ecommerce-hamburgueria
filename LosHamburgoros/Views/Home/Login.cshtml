@@ -1,0 +1,24 @@
+﻿@*Estilos de css*@
+@section Stylesheets{
+    <link rel="stylesheet" href="~/css/formulario.css">
+    <link rel="stylesheet" href="~/css/login.css">
+}
+<section class="card-login">
+    <form action="" class="column-container login">
+        <h1>ENTRE EM SUA CONTA</h1>
+        <img src="~/img/identidade/hamburguer-animado.png"/>
+        <div class="campo">
+            <input type="text" name="email" id="email" required/>
+            <label for="email">Email</label>
+        </div>
+
+        <div class="campo">
+            <input type="password" name="senha" id="senha" required/>
+            <label for="senha">Senha</label>
+        </div>
+
+        <p>Não tem uma conta? <a>CADASTRE-SE</a></p>
+
+        <button class="button-subimit" type="submit">ENTRAR</button>
+    </form>
+</section>

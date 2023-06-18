@@ -1,0 +1,25 @@
+.card-login {
+    max-width: 40vw;
+    height: 60vh;
+    margin: 50px auto;
+    padding: 50px;
+    border-radius: 0.5em;
+    backdrop-filter: blur( 13.5px );
+    -webkit-backdrop-filter: blur(13.5px );
+    background: linear-gradient(131.83deg, #EDAE65 0%, #743A2F 100%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-login h1{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card-login img, .card-login button{
+    margin: 0 auto;
+}
+ form button{
+     padding: 20px 40px;
+     color: var(--branco);
+     font-size: 1.4em;
+ }

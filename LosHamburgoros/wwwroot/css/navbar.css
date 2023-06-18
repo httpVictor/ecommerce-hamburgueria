@@ -1,0 +1,75 @@
+/* IDENTIDADE VISUAL */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Passion One', sans-serif; */
+/* font-family: 'Bungee Spice', sans-serif; */
+/*
+    --marrom: #400202;
+    --vermelho: #C32300;
+    --laranja: #D97B29;
+    --amarelo: #F8FF4E;
+    --verde-limao: #CAE400;
+    --beje: #FEE0A2;
+    --branco: #FDF3DD;
+*/
+
+/* NAV BAR */
+.navbar{
+    background-color: var(--marrom);
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    color: var(--branco);
+    font-size: 1.4em;
+    letter-spacing: 0.02em;
+}
+
+.navbar ul li:hover{
+    cursor: pointer;
+    color: var(--verde-limao);
+    transition: 0.5s;
+}
+
+.logo{
+    align-items: center;
+    column-gap: 5px;
+}
+
+a h1{
+    text-transform: lowercase;
+    font-size: 1.5em;
+    color: var(--branco);
+}
+.nav-filhos{
+    column-gap: 30px;
+}
+
+/* FOOTER */
+
+footer{
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    min-height: 40vh;
+    background-color: var(--laranja);
+    padding: 40px;
+}
+
+footer div{
+    width: 30%;
+}
+.cardapio{
+    display: flex;
+    flex-direction: column;
+}
+
+.cardapio a {
+    font-size: 0.8em;
+}
