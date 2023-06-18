@@ -89,9 +89,15 @@
     margin: 10px 0;
 }
 
-.cardapio{
+.cardapio {
+    display: flex;
+    flex-direction: column;
     padding: 20px;
     font-size: 1.8em;
+}
+
+.cardapio a {
+    font-size: 0.8em;
 }
 
 /* MAPA */

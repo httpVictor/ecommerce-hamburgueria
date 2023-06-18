@@ -1,6 +1,5 @@
 .card-login {
     max-width: 40vw;
-    height: 60vh;
     margin: 50px auto;
     padding: 50px;
     border-radius: 0.5em;
@@ -15,11 +14,33 @@
     text-align: center;
     margin-bottom: 10px;
 }
+
 .card-login img, .card-login button{
     margin: 0 auto;
 }
- form button{
-     padding: 20px 40px;
-     color: var(--branco);
-     font-size: 1.4em;
- }
+
+form p{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+form p a {
+    font-size: 0.9em;
+    cursor: pointer;
+    text-transform: lowercase;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline;
+}
+
+form p a:hover{
+    color: var(--branco);
+    transition: 0.6s;
+}
+
+form button {
+    padding: 20px 40px;
+    color: var(--branco);
+    font-size: 1.4em;
+}

@@ -1,0 +1,21 @@
+﻿section{
+    text-align: center;
+}
+
+.cabecalho-produtos{
+    margin: 40px auto;
+    text-align: center;
+    justify-content: space-around;
+    align-items:center;
+    max-width: 60vw;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 300px));
+    grid-column-gap: 4vw;
+    grid-row-gap: 5vh;
+    justify-content: center;
+    max-width: 80vw;
+    margin: 40px auto;
+}
